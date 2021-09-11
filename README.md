@@ -1,7 +1,4 @@
-# Terminal Shell#root
-
-## Instructi
-## Misc:
+# root
 ### Command List for BotFather:
 Copy paste this through <b>Edit Commands</b> in <b>BotFather</b> to view commands when you type in a `/` (slash).<br>
 Text `/help` to the bot for a slightly more detailed explanation.
