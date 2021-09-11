@@ -1,9 +1,4 @@
-# Terminal Shell
-
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/TranCongVinh1/root)
-
-You can deploy without cloning this repo to test it out.
+# Terminal Shell.
 
 ## Instructions:
 * Click on "<b>Use this template</b>" if you want to make your repo private (forking wont allow the repo to be private).
