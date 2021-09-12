@@ -31,7 +31,7 @@ COPY /stuff /home/stuff
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Install the bot:
-RUN wget curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-356.0.0-linux-x86_64.tar.gz && tar -zxvf *.gz && ./google-cloud-sdk/install.sh && git clone https://github.com/botgram/shell-bot.git \
+RUN curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-356.0.0-linux-x86_64.tar.gz && tar -zxvf *.gz && ./google-cloud-sdk/install.sh && git clone https://github.com/botgram/shell-bot.git \
  && cd shell-bot \
  && npm install
 
